@@ -127,10 +127,12 @@ btnSearchEl.addEventListener("click", function () {
             artistPic: data.data._embedded.events[0].images[0].url,
             eventName: data.data._embedded.events[0].name,
             TMLink: data.data._embedded.events[0].url
-
         }
-
         console.log(eventObj)
+        // Start Appending results
+        // image
+        // name
+        // TM Link
     })
 });
 
